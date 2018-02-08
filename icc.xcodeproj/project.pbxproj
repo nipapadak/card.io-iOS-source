@@ -2513,6 +2513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BA1BE2F7A800B669FB /* UnitTest_Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = Debug;
 		};
@@ -2520,6 +2521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BB1BE2F7A800B669FB /* UnitTest_Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = Release;
 		};
@@ -2527,6 +2529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B91BE2F7A800B669FB /* UnitTest_AdHoc.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = AdHoc;
 		};
@@ -2558,6 +2561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AF1BE2F7A800B669FB /* CardIO_Static_Library_Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = Debug;
 		};
@@ -2565,6 +2569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B01BE2F7A800B669FB /* CardIO_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = Release;
 		};
@@ -2572,6 +2577,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AE1BE2F7A800B669FB /* CardIO_Static_Library_AdHoc.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 			};
 			name = AdHoc;
 		};
@@ -2580,7 +2586,8 @@
 			baseConfigurationReference = A553B71B1BE32664006DF551 /* icc_Static_Library_Debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2589,7 +2596,8 @@
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2598,7 +2606,8 @@
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AdHoc;
 		};
@@ -2607,6 +2616,8 @@
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2615,6 +2626,8 @@
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2623,6 +2636,8 @@
 			baseConfigurationReference = A50A54BD1BE2FEEC00B669FB /* CardIO_Framework_Adhoc.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AdHoc;
 		};
@@ -2631,6 +2646,8 @@
 			baseConfigurationReference = A50A54B41BE2F7A800B669FB /* icc_Debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2639,6 +2656,8 @@
 			baseConfigurationReference = A50A54B51BE2F7A800B669FB /* icc_Release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2647,6 +2666,8 @@
 			baseConfigurationReference = A50A54B31BE2F7A800B669FB /* icc_AdHoc.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW7KCT69W5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AdHoc;
 		};

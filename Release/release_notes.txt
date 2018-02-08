@@ -1,5 +1,8 @@
 card.io iOS SDK release notes
 =============================
+5.4.2 (Thu 8/2/2017)
+
+* Compile XCode 9, iOS 9.3, iPhone Device Family Only
 
 5.4.1 (Fri 09/16/2016)
 
